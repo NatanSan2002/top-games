@@ -1,0 +1,199 @@
+footer {
+    margin-top: 17%;
+}
+
+footer .cima {
+    background-color: var(--cor3);
+    padding-top: 20px;
+}
+
+footer .email {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ea2a2a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 5% 38px 5%;
+}
+
+footer .email input {
+    margin: 10px 11px 10px 28px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    padding: 13px 20px;
+    width: 355px;
+}
+
+footer .email input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+footer .email button {
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+footer .email button:hover {
+    border: 2px solid black;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+footer .informacoes {
+    padding: 2px 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer .informacoes>div>* {
+    margin-bottom: 5px;
+}
+
+footer .informacoes .contato>* {
+    margin-bottom: 12px;
+}
+
+footer .informacoes .contato a {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer .informacoes .contato svg {
+    font-size: 21px;
+    margin-right: 5px;
+}
+
+footer .informacoes strong {
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 18px;
+}
+
+footer .informacoes a {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+footer .informacoes p {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+footer .informacoes a:hover {
+    text-decoration-line: underline;
+}
+
+footer .informacoes>div {
+    margin: 4.1% 20px;
+    max-width: 286px;
+}
+
+footer .informacoes .redes_sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .informacoes .redes_sociais svg {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0 5px;
+}
+
+footer .pagamento {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+footer .pagamento .imagem {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+footer .pagamento .imagem>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 64px;
+    justify-content: space-around;
+    margin-right: 8px;
+    margin-bottom: 8%;
+}
+
+footer .pagamento .direitos {
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+
+
+@media(max-width:850px) {
+    footer .pagamento .imagem {
+        justify-content: center;
+    }
+}
+
+@media(max-width:627px) {
+    footer .informacoes {
+        justify-content: center;
+
+    }
+
+    footer .informacoes>div {
+        max-width: 193px;
+    }
+
+    footer .informacoes .contato a {
+        justify-content: center;
+    }
+}
+
+@media(max-width:464px) {
+    footer .informacoes a {
+        font-size: 12px;
+    }
+
+    footer .informacoes p {
+        font-size: 12px;
+    }
+
+    footer .informacoes {
+        text-align: center;
+    }
+
+    footer .informacoes>div {
+        max-width: 213px;
+    }
+
+}

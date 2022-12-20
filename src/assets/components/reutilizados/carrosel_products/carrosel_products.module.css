@@ -1,0 +1,108 @@
+.CarroselProd_Component{
+width: 100%;
+font-family: "Roboto",Arial sans-serif;
+margin: 5% 0;
+position: relative;
+
+
+}
+
+.CarroselProd_Component h6{
+font-size: 22px;
+margin-bottom: 3%;
+}
+
+
+
+.CarroselProd_Component  > img{
+    width: 22px;
+    position: absolute;
+    top: 50%;
+    left: 101%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+
+}
+
+.CarroselProd_Component  > .arrowLeft{
+    left: -1%;
+}
+
+.CarroselProd_Component  > img:hover{
+    transform: translate(-40%,-44%);
+    transition: 0.2s;
+}
+
+.CarroselProd_Component  > .arrowLeft:hover{
+    transform: translate(-60%,-44%);
+    transition: 0.2s;
+}
+
+.CarroselProd_Component > div {
+display: flex;
+overflow-x:hidden;
+scroll-behavior: smooth;
+}
+
+.CarroselProd_Component > div > div {
+    margin: 3px 3.76%;
+    width: 17.48%;
+}
+
+
+
+@media(min-width:1880px){
+    .CarroselProd_Component{
+        width:1504px;
+    }
+}
+
+
+
+@media(max-width:1150px){
+    .CarroselProd_Component > div > div{ 
+    margin: 3px 3.925%;
+    width: 25.48333333333333%;
+    }
+}
+
+@media(max-width:900px){
+
+
+.CarroselProd_Component > div > div{
+    margin: 0;
+    width: 100%;
+}
+
+.CarroselProd_Component > div > div > img{
+    width: 49%;
+}
+
+.CarroselProd_Component  > img{
+    
+    top: 107%;
+
+}
+
+.CarroselProd_Component  > img{
+    left: 60%;
+    width: 40px;
+   
+
+}
+
+.CarroselProd_Component  > .arrowLeft{
+    left: 40%;
+}
+
+
+}
+
+@media(max-width:504px){
+    .CarroselProd_Component > div > div > img{
+        width: 199px;
+    }
+
+    
+
+}

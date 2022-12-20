@@ -1,0 +1,66 @@
+.AboutBuy_Component  {
+font-family: var(--font2);
+margin-top: 14%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.AboutBuy_Component > * {
+margin-bottom: 5%;
+}
+
+.AboutBuy_Component .beneficios{
+    margin: 5% 0;
+font-family: "Roboto", Arial, Helvetica, sans-serif;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.AboutBuy_Component .beneficios .container {
+    width: 334px;
+    margin: 4% 4.2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 116px;
+}
+
+.AboutBuy_Component .beneficios .container > div{
+display: flex;
+align-items: center;
+}
+
+.AboutBuy_Component .beneficios img{
+    width: 50px;
+    margin-right: 9px;
+}
+
+.AboutBuy_Component .beneficios h6{
+text-transform: uppercase;
+font-size: 20px;
+font-weight: 700;
+}
+
+.AboutBuy_Component .beneficios p{
+font-size:1.125em;
+font-weight: 400;
+}
+
+
+@media(max-width:375px){
+    .AboutBuy_Component .beneficios .container{
+    width: 100%;
+    }
+}
+
+
+
+
+
+
+
+

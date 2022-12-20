@@ -1,0 +1,13 @@
+.BL_Container{
+    background: white;
+    border-radius: 12px;
+    padding: 7px 6px;
+    box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.301);
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    text-transform: none;
+    text-align: left;
+    z-index: 10;
+}

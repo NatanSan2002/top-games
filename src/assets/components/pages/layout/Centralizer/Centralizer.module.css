@@ -1,0 +1,17 @@
+.Centralizer_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width:80%;
+    margin: 0 auto;
+}
+
+.Centralizer_Container > *{
+width: 100%;
+}
+
+
+@media(max-width:425px){
+.Centralizer_Container{width: 95%;}
+}
+

@@ -1,0 +1,182 @@
+
+@import url(../../../../index.css);
+
+.PopUp{
+display: inline-block;
+font-family: "Roboto",sans-serif;
+}
+
+.PopUp > div {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background:#ffffff;
+    color: #000000;
+    font-weight: 300;
+
+/*Contato Configs*/
+}
+
+.PopUp .contato{
+    width: 211px;
+    padding: 20px 15px 55px 62px;
+    height: 204px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.PopUp .contato .container p{
+font-weight: bold;
+font-size: 15px;
+}
+
+.PopUp .contato .container span{
+    font-size: 15px;
+    }
+
+.PopUp .contato .container > div{
+display: flex;
+}
+
+.PopUp .contato .container img{
+width:17px;
+margin-right: 5px;
+}
+
+.PopUp .cima > div{
+    margin-bottom: 7px;
+}
+
+.PopUp .contato .baixo .container{
+color: #6b6b6b;
+}
+
+.PopUp .contato .baixo .horarios{
+display: flex;
+flex-direction: column;
+}
+
+
+/*Login Configs*/
+
+.PopUp .login{
+    width: 349px;
+    height: 153px;
+    padding: 18px 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PopUp .bem_vindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PopUp .bem_vindo p{
+margin: 9px 0;
+}
+
+
+
+.PopUp .bem_vindo img{
+    width: 21px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 19px;
+}
+
+.PopUp .bem_vindo button{
+    width: 179px;
+    border-radius: 5px;
+}
+
+
+
+
+.PopUp .options > div{
+display: flex;
+margin-bottom: 24px;
+color: #6b6b6b;
+font-weight: 600;
+}
+
+.PopUp .options img{
+width: 20px;
+margin-right: 3px;
+}
+    
+
+
+/*produto configs*/
+
+.PopUp .produto{
+    width: 258px;
+    height: 266px;
+    padding: 11px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 14px;
+    box-shadow:-1px 8px 3px rgba(0, 0, 0, 0.178);
+    position: relative;
+}
+
+.PopUp .produto .seta{
+    width: 12px;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    cursor:pointer;
+}
+
+.PopUp .produto .container{
+height:200px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.PopUp .produto p {
+margin-bottom: 4px;
+}
+
+.PopUp .produto .titulo{
+    text-transform: uppercase;
+}
+
+.PopUp .produto h6{
+font-size: 28px;
+font-weight: 400;
+margin-bottom: 7px;
+}
+
+.PopUp .produto button{
+width: 100%;
+}
+
+.PopUp .minimize{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+padding: 0;
+transition: 0.3s;
+box-shadow: none;
+}
+
+.PopUp .minimize * {
+display: none;
+}
+
+.PopUp .minimize .seta{
+    display: inline-block;
+    top: 37%;
+    left: 28%;
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+}
+

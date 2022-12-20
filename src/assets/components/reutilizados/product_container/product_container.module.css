@@ -1,0 +1,114 @@
+.Product_Component{
+    display: flex;
+    flex-direction: column;
+    width: 266.14px;
+    min-height: 491.78px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    flex: none;
+    
+}
+
+@keyframes appear{
+from{
+outline: 1 solid black;
+
+}
+to{
+    outline: 0px solid rgba(0, 0, 0, 0.082);
+}
+}
+
+
+.Product_Component .hover{
+opacity:0;
+transition: 0.4s;
+}
+
+.Product_Component:hover{
+animation: appear 0.5s;
+}
+
+.Product_Component:hover .hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.Product_Component > img {
+    width: 96.42%;
+    cursor: pointer;
+}
+
+.Product_Component .fav{
+    width: 27px;
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%,-50%);
+    filter: invert(25%) sepia(37%) saturate(6091%) hue-rotate(343deg) brightness(99%) contrast(89%);
+}
+
+.Product_Component .title{
+font-size: 17px;
+margin: 17px 0;
+color: #919191;
+}
+
+.Product_Component .price{
+font-size:1.5em;
+color:#303030;
+font-weight: 600;
+}
+
+
+.Product_Component .parcelas{
+    font-size:13px;
+    margin: 5px;
+    color:#919191;
+    }
+
+    .Product_Component .a_vista{
+        font-size:15px;
+        color:#FF0000;
+        font-weight: 600;
+        }
+
+
+.Product_Component  button{
+
+    width: 103px;
+    margin: 15px 0 0px 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+
+}
+
+.Product_Component  button:hover{
+background:#5bb85a;
+transition: 0.3s;
+}
+
+.Product_Component > div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Product_Component > div img{
+width:30px;
+margin-right:6px;
+}
+
+
+
+@media(max-width:900px){
+.Product_Component .hover{
+    opacity:1;
+    }
+}
+
+

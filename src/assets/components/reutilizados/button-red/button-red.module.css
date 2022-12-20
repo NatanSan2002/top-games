@@ -1,0 +1,19 @@
+@import url("../../../../index.css");
+
+.botaoRED{
+    background-color:var(--cor1);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 11px 7px;
+    border-radius: 2px;
+    text-transform: uppercase;
+
+}
+
+.strongfont{
+font-weight: 600;
+}

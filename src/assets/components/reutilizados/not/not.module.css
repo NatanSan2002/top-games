@@ -1,0 +1,38 @@
+.Notificacoes{
+display: flex;
+align-items: center;
+position: relative;
+}
+
+.Notificacoes img {
+width: 32px;
+}
+
+.Notificacoes .not{
+    border-radius: 50%;
+    width: 19px;
+    height: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 26%;
+    left: 114%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+}
+
+.Notificacoes .vermelho{
+    background: #d90000;
+}
+
+.Notificacoes .amarelo{
+background:#F1E208
+}
+
+.Notificacoes .not span{
+    position: absolute;
+    top: 52%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
