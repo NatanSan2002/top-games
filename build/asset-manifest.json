@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8045d99.css",
+    "main.js": "/static/js/main.ed9328b6.js",
+    "static/media/two_dualsenses.png": "/static/media/two_dualsenses.cdf4fb2472b1b94eaa41.png",
+    "static/media/gamebox_normal.jpg": "/static/media/gamebox_normal.d65c6215bb49a038f8a7.jpg",
+    "static/media/injustice2_banner.jpg": "/static/media/injustice2_banner.d56a790208845bbe10ae.jpg",
+    "static/media/fifa23banner2.jpg": "/static/media/fifa23banner2.34664097297f08c014b5.jpg",
+    "static/media/seta-esquerda.png": "/static/media/seta-esquerda.868eae62755674937f24.png",
+    "static/media/crashbd.png": "/static/media/crashbd.250067722e2735c62165.png",
+    "static/media/lancamentos-img.webp": "/static/media/lancamentos-img.7547ca4db1123f218cab.webp",
+    "static/media/gamebox_inclinado.jpg": "/static/media/gamebox_inclinado.a6527a4407b5b5fc156c.jpg",
+    "static/media/background-interno.jpg": "/static/media/background-interno.314d2eae56940c040086.jpg",
+    "static/media/logo.jpg": "/static/media/logo.57bb3d2205b1d9a62dc9.jpg",
+    "static/media/fullbanner04.jpg": "/static/media/fullbanner04.19a4e927a4808625acb5.jpg",
+    "static/media/gamebox_inclinado2.jpg": "/static/media/gamebox_inclinado2.1f9f4659314360334845.jpg",
+    "static/media/gamebox_inclinado3.jpg": "/static/media/gamebox_inclinado3.c333aaaf871191ea9df0.jpg",
+    "static/media/telefone.png": "/static/media/telefone.6445ecb7531d440f8538.png",
+    "static/media/email.png": "/static/media/email.67bda94140af311d041f.png",
+    "static/media/relogio.png": "/static/media/relogio.48328942dad9c5e93db5.png",
+    "static/media/whats.png": "/static/media/whats.29a8e4bf94e92b005237.png",
+    "static/media/caixa.png": "/static/media/caixa.049763961f06d65bdea7.png",
+    "static/media/boleto_icon.svg": "/static/media/boleto_icon.16b26ce4bef6cb825247f7178da07fe1.svg",
+    "static/media/usuario_icone.svg": "/static/media/usuario_icone.a76b5eeb2e3b80403c2aedeaa1085101.svg",
+    "static/media/balao.svg": "/static/media/balao.9be4bb3f04bbc5db14fb57c820feaca9.svg",
+    "static/media/carrinho.svg": "/static/media/carrinho.c3dac327bc69ddd12fb6b4aacf6a631a.svg",
+    "static/media/card_icon.svg": "/static/media/card_icon.425250c64dda54eab840a938cdccc641.svg",
+    "static/media/lupa.svg": "/static/media/lupa.20809fef5680b3fb5ce4079e01bdbd8d.svg",
+    "index.html": "/index.html",
+    "main.d8045d99.css.map": "/static/css/main.d8045d99.css.map",
+    "main.ed9328b6.js.map": "/static/js/main.ed9328b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8045d99.css",
+    "static/js/main.ed9328b6.js"
+  ]
+}
